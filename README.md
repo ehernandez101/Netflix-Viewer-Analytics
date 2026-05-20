@@ -31,12 +31,6 @@ The framework models how analytics teams evaluate anime title performance, user 
 ## Executive Overview
 ![Crunchyroll Dashboard](dashboard/Crunchyroll%20Streamlit.png)
 
-## Viewer Engagement Analytics
-![Engagement Analytics](dashboard/engagement_analytics.png)
-
-## Retention & Churn Analysis
-![Retention Dashboard](dashboard/retention_dashboard.png)
-
 ---
 
 # 📈 KPIs Analyzed
