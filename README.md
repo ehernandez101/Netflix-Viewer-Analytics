@@ -29,7 +29,7 @@ The framework models how analytics teams evaluate anime title performance, user 
 # 📸 Dashboard Preview 
 
 ## Executive Overview
-![Dashboard Overview](dashboard/Crunchyroll Streamlit.png)
+![Crunchyroll Dashboard](dashboard/Crunchyroll%20Streamlit.png)
 
 ## Viewer Engagement Analytics
 ![Engagement Analytics](dashboard/engagement_analytics.png)
