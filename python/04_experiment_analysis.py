@@ -1,18 +1,20 @@
-import pandas as pd 
+import pandas as pd
 import numpy as np
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
 
 np.random.seed(42)
 
-df = pd.read_csv("../data/crunchyroll_anime_dataset.csv")
+df = pd.read_csv(DATA / "crunchyroll_anime_dataset.csv")
 
-# Simulate A/B test groups for homepage thumbnail / recommendation rail
 df["experiment_group"] = np.random.choice(
     ["Control", "Variant"],
     size=len(df),
     p=[0.50, 0.50]
 )
 
-# Simulate conversion behavior
 df["clicked_title"] = np.where(
     df["experiment_group"] == "Variant",
     np.random.choice([0, 1], size=len(df), p=[0.28, 0.72]),
@@ -31,7 +33,6 @@ df["completed_episode"] = np.where(
     0
 )
 
-# KPI results
 results = (
     df.groupby("experiment_group")[["clicked_title", "started_watching", "completed_episode"]]
     .mean()
@@ -44,12 +45,11 @@ print(results)
 
 control_click = results.loc["Control", "clicked_title"]
 variant_click = results.loc["Variant", "clicked_title"]
-
 lift = ((variant_click - control_click) / control_click) * 100
 
 print("\n=== EXPERIMENT LIFT ===\n")
 print(f"Click Conversion Lift: {lift:.2f}%")
 
-df.to_csv("../data/crunchyroll_experiment_dataset.csv", index=False)
+df.to_csv(DATA / "crunchyroll_experiment_dataset.csv", index=False)
 
 print("\nExperiment dataset created successfully.")

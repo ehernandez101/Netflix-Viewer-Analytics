@@ -1,43 +1,38 @@
-import pandas as pd 
+import pandas as pd
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
-df = pd.read_csv("../data/crunchyroll_anime_dataset.csv")
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
 
-# Convert churn risk into a binary target
+df = pd.read_csv(DATA / "crunchyroll_anime_dataset.csv")
+
 df["high_churn_risk"] = df["churn_risk"].map({
     "Low": 0,
+    "Medium": 0,
     "High": 1
 })
 
 features = [
     "watch_minutes",
-    "episodes_completed",
-    "days_inactive",
-    "subscription_months",
-    "ad_clicks"
+    "completion_rate",
+    "score",
+    "retained"
 ]
 
 X = df[features]
 y = df["high_churn_risk"]
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.25,
-    random_state=42
+    X, y, test_size=0.25, random_state=42
 )
 
-model = RandomForestClassifier(
-    n_estimators=150,
-    random_state=42
-)
-
+model = RandomForestClassifier(n_estimators=150, random_state=42)
 model.fit(X_train, y_train)
 
 predictions = model.predict(X_test)
-
 accuracy = accuracy_score(y_test, predictions)
 
 print("\n=== CHURN PREDICTION MODEL ===\n")

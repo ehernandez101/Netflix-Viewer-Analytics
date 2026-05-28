@@ -1,19 +1,15 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
-df = pd.read_csv("../data/crunchyroll_anime_dataset.csv")
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+
+df = pd.read_csv(DATA / "crunchyroll_anime_dataset.csv")
 
 np.random.seed(42)
 
-# -----------------------------
-# Simulate Viewer Journey
-# -----------------------------
-
-df["homepage_click"] = np.random.choice(
-    [0, 1],
-    size=len(df),
-    p=[0.35, 0.65]
-)
+df["homepage_click"] = np.random.choice([0, 1], size=len(df), p=[0.35, 0.65])
 
 df["started_episode"] = np.where(
     df["homepage_click"] == 1,
@@ -33,43 +29,22 @@ df["returned_next_day"] = np.where(
     0
 )
 
-# -----------------------------
-# Funnel Metrics
-# -----------------------------
-
-homepage_click_rate = df["homepage_click"].mean() * 100
-start_rate = df["started_episode"].mean() * 100
-completion_rate = df["completed_episode"].mean() * 100
-return_rate = df["returned_next_day"].mean() * 100
-
 print("\n=== VIEWER JOURNEY FUNNEL ===\n")
-
-print(f"Homepage Click Rate: {homepage_click_rate:.2f}%")
-print(f"Episode Start Rate: {start_rate:.2f}%")
-print(f"Episode Completion Rate: {completion_rate:.2f}%")
-print(f"Next-Day Return Rate: {return_rate:.2f}%")
-
-# -----------------------------
-# Anime Title Funnel Analysis
-# -----------------------------
+print(f"Homepage Click Rate: {df['homepage_click'].mean():.2%}")
+print(f"Episode Start Rate: {df['started_episode'].mean():.2%}")
+print(f"Episode Completion Rate: {df['completed_episode'].mean():.2%}")
+print(f"Next-Day Return Rate: {df['returned_next_day'].mean():.2%}")
 
 title_funnel = (
-    df.groupby("anime_title")[
-        [
-            "homepage_click",
-            "started_episode",
-            "completed_episode",
-            "returned_next_day"
-        ]
-    ]
+    df.groupby("anime_title")[["homepage_click", "started_episode", "completed_episode", "returned_next_day"]]
     .mean()
-    * 100
+    .mul(100)
+    .round(2)
 )
 
 print("\n=== TITLE PERFORMANCE FUNNEL ===\n")
-print(title_funnel.round(2))
+print(title_funnel.head(15))
 
-# Save enriched dataset
-df.to_csv("../data/crunchyroll_viewer_journey_dataset.csv", index=False)
+df.to_csv(DATA / "crunchyroll_viewer_journey_dataset.csv", index=False)
 
 print("\nViewer journey dataset created successfully.")
