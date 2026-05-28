@@ -1,44 +1,41 @@
-import pandas as pd 
+import pandas as pd
 import streamlit as st
 import plotly.express as px
+from pathlib import Path
 
-df = pd.read_csv("../data/crunchyroll_anime_dataset.csv")
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+
+df = pd.read_csv(DATA / "crunchyroll_anime_dataset.csv")
 
 st.set_page_config(
     page_title="Crunchyroll Content Analytics Framework",
     layout="wide"
 )
 
-st.markdown( 
+st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(180deg, #1E293B 0%, #0F172A 45%, #020617 100%);
+        background: linear-gradient(180deg, #1E3A8A 0%, #172554 45%, #0F172A 100%);
         color: #F8FAFC;
     }
 
-    h1, h2, h3, p, label {
+    h1, h2, h3, p, label, span {
         color: #F8FAFC !important;
     }
 
     div[data-testid="stMetric"] {
-        background-color: #1E293B;
-        border: 1px solid #475569;
-        padding: 20px;
+        background-color: #243B63;
+        border: 1px solid #60A5FA;
+        padding: 18px;
         border-radius: 16px;
-        box-shadow: 0px 4px 20px rgba(0,0,0,0.35);
-    }
-
-    div[data-testid="stMetricLabel"] {
-        color: #CBD5E1 !important;
-        font-size: 15px;
-        font-weight: 600;
     }
 
     div[data-testid="stMetricValue"] {
         color: #FFFFFF !important;
-        font-size: 34px;
-        font-weight: 800;
+        font-size: 30px !important;
+        font-weight: 800 !important;
     }
 
     section[data-testid="stSidebar"] {
@@ -49,17 +46,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 st.title("🎌 Crunchyroll Content Analytics Framework")
 st.write("Anime content analytics dashboard focused on engagement, retention, churn risk, and viewer journey performance.")
 
-# Sidebar filters
 st.sidebar.header("Filters")
 
 title_filter = st.sidebar.multiselect(
     "Anime Title",
     options=sorted(df["anime_title"].unique()),
-    default=sorted(df["anime_title"].unique())
+    default=sorted(df["anime_title"].unique())[:25]
 )
 
 region_filter = st.sidebar.multiselect(
@@ -80,22 +75,20 @@ filtered = df[
     (df["genre"].isin(genre_filter))
 ]
 
-# KPI Cards
-total_users = filtered["user_id"].nunique()
+total_titles = filtered["anime_title"].nunique()
 avg_watch_minutes = filtered["watch_minutes"].mean()
 retention_rate = filtered["retained"].mean()
 high_churn_rate = (filtered["churn_risk"] == "High").mean()
 
 col1, col2, col3, col4 = st.columns(4)
 
-col1.metric("Total Users", f"{total_users:,}")
+col1.metric("Anime Titles", f"{total_titles:,}")
 col2.metric("Avg Watch Minutes", f"{avg_watch_minutes:.1f}")
 col3.metric("Retention Rate", f"{retention_rate:.2%}")
 col4.metric("High Churn Risk", f"{high_churn_rate:.2%}")
 
 st.divider()
 
-# Charts
 c1, c2 = st.columns(2)
 
 with c1:
@@ -104,16 +97,17 @@ with c1:
         .mean()
         .reset_index()
         .sort_values("watch_minutes", ascending=False)
+        .head(15)
     )
 
     fig = px.bar(
         title_watch,
         x="anime_title",
         y="watch_minutes",
-        title="Average Watch Minutes by Anime Title",
+        title="Top Anime by Average Watch Minutes",
         color_discrete_sequence=["#F97316"]
     )
-    fig.update_layout(template="plotly_dark")
+    fig.update_layout(template="plotly_dark", xaxis_tickangle=-35)
     st.plotly_chart(fig, use_container_width=True)
 
 with c2:
@@ -137,17 +131,13 @@ with c2:
 c3, c4 = st.columns(2)
 
 with c3:
-    churn_distribution = (
-        filtered["churn_risk"]
-        .value_counts()
-        .reset_index()
-    )
-    churn_distribution.columns = ["churn_risk", "users"]
+    churn_distribution = filtered["churn_risk"].value_counts().reset_index()
+    churn_distribution.columns = ["churn_risk", "titles"]
 
     fig = px.pie(
         churn_distribution,
         names="churn_risk",
-        values="users",
+        values="titles",
         title="Churn Risk Distribution"
     )
     fig.update_layout(template="plotly_dark")
