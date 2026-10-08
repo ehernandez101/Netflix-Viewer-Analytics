@@ -1,0 +1,4 @@
+subscription_type,users,churned_users,churn_rate,estimated_monthly_revenue,revenue_at_risk,avg_watch_time_minutes,avg_completion_rate,avg_rating,avg_binge_sessions,avg_content_interactions,avg_recommendation_click_rate,avg_days_since_last_login
+Standard,19931,4004,20.09,245835.69,49522.96,155.0,64.47,3.0,6.98,24.35,49.52,29.5
+Premium,15196,3099,20.39,187125.04,38048.01,154.6,64.74,3.02,7.02,24.34,49.57,29.42
+Basic,14873,2861,19.24,183206.27,34809.39,155.22,64.41,3.0,7.02,24.21,49.61,29.29

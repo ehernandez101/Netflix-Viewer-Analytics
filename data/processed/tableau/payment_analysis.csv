@@ -1,0 +1,5 @@
+payment_method,users,churned_users,churn_rate,estimated_monthly_revenue,revenue_at_risk,avg_watch_time_minutes,avg_completion_rate,avg_rating,avg_binge_sessions,avg_content_interactions,avg_recommendation_click_rate,avg_days_since_last_login
+Paypal,12539,2512,20.03,154727.61,30538.88,154.95,64.65,3.01,7.02,24.37,49.72,29.49
+Credit Card,12502,2458,19.66,153806.98,30329.42,154.25,64.38,2.99,7.03,24.15,49.3,29.24
+Upi,12496,2479,19.84,154317.04,30541.21,155.16,64.55,3.02,6.99,24.27,49.69,29.42
+Debit Card,12463,2515,20.18,153315.37,30970.85,155.42,64.55,3.0,6.97,24.45,49.54,29.5
