@@ -1,0 +1,18 @@
+kpi,value
+Total Users,50000.0
+Retained Users,40036.0
+Churned Users,9964.0
+Churn Rate (%),19.93
+Retention Rate (%),80.07
+Estimated Monthly Revenue,616167.0
+Annualized Revenue,7394004.0
+Monthly Revenue At Risk,122380.36
+Annualized Revenue At Risk,1468564.32
+Average Monthly Fee,12.32
+Average Watch Time (Minutes),154.95
+Average Completion Rate (%),64.53
+Average Rating,3.0
+Average Binge Sessions,7.0
+Average Recommendation Click Rate (%),49.56
+Average Days Since Last Login,29.41
+Average Content Interactions,24.31

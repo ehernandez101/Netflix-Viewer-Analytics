@@ -1,0 +1,6 @@
+age_group,users,churned_users,churn_rate,estimated_monthly_revenue,revenue_at_risk,avg_watch_time_minutes,avg_completion_rate,avg_rating,avg_binge_sessions,avg_content_interactions,avg_recommendation_click_rate,avg_days_since_last_login
+18-24,7362,1456,19.78,90682.38,17963.44,154.85,64.42,3.0,7.04,24.67,49.56,29.34
+25-34,10778,2140,19.86,132961.22,26315.6,155.3,64.36,3.0,7.01,24.17,49.75,29.46
+35-44,10690,2210,20.67,131754.1,27056.9,154.13,64.68,3.0,6.97,24.26,49.72,29.31
+45-54,10550,2066,19.58,130216.5,25336.34,154.03,64.84,3.0,6.97,24.32,49.62,29.31
+55-64,10620,2092,19.7,130552.8,25708.08,156.38,64.33,3.0,7.03,24.22,49.16,29.61
