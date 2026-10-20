@@ -1,0 +1,1298 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...creator-author-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='netflix_user_analytics' inline='true' name='federated.1mqkgsx11mhwgw13a12se0ivmzog' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='netflix_user_analytics' name='textscan.0p7jr8m1fs6zck1a9fizt1dwwoft'>
+            <connection class='textscan' directory='C:/Users/Enrique Hernandez/Documents/GitHub/Netflix-Viewer-Analytics/data/processed/tableau' filename='netflix_user_analytics.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0p7jr8m1fs6zck1a9fizt1dwwoft' name='netflix_user_analytics.csv' table='[netflix_user_analytics#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='user_id' ordinal='0' />
+            <column datatype='real' name='age' ordinal='1' />
+            <column datatype='string' name='gender' ordinal='2' />
+            <column datatype='string' name='country' ordinal='3' />
+            <column datatype='real' name='account_age_months' ordinal='4' />
+            <column datatype='string' name='subscription_type' ordinal='5' />
+            <column datatype='real' name='monthly_fee' ordinal='6' />
+            <column datatype='string' name='payment_method' ordinal='7' />
+            <column datatype='string' name='primary_device' ordinal='8' />
+            <column datatype='real' name='devices_used' ordinal='9' />
+            <column datatype='string' name='favorite_genre' ordinal='10' />
+            <column datatype='real' name='avg_watch_time_minutes' ordinal='11' />
+            <column datatype='real' name='watch_sessions_per_week' ordinal='12' />
+            <column datatype='real' name='binge_watch_sessions' ordinal='13' />
+            <column datatype='real' name='completion_rate' ordinal='14' />
+            <column datatype='real' name='rating_given' ordinal='15' />
+            <column datatype='real' name='content_interactions' ordinal='16' />
+            <column datatype='real' name='recommendation_click_rate' ordinal='17' />
+            <column datatype='real' name='days_since_last_login' ordinal='18' />
+            <column datatype='string' name='churned' ordinal='19' />
+            <column datatype='integer' name='churn_flag' ordinal='20' />
+            <column datatype='string' name='age_group' ordinal='21' />
+            <column datatype='string' name='watch_time_segment' ordinal='22' />
+            <column datatype='string' name='login_activity_segment' ordinal='23' />
+            <column datatype='real' name='monthly_revenue' ordinal='24' />
+            <column datatype='real' name='annualized_revenue' ordinal='25' />
+            <column datatype='real' name='monthly_revenue_at_risk' ordinal='26' />
+            <column datatype='string' name='customer_status' ordinal='27' />
+            <column datatype='real' name='estimated_monthly_revenue' ordinal='28' />
+            <column datatype='real' name='revenue_at_risk' ordinal='29' />
+            <column datatype='string' name='engagement_segment' ordinal='30' />
+            <column datatype='string' name='binge_segment' ordinal='31' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_id]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>user_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>account_age_months</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[account_age_months]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>account_age_months</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subscription_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subscription_type]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>subscription_type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_fee</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monthly_fee]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>monthly_fee</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>payment_method</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[payment_method]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>payment_method</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_device</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary_device]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>primary_device</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>devices_used</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[devices_used]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>devices_used</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>favorite_genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[favorite_genre]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>favorite_genre</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_watch_time_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_watch_time_minutes]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>avg_watch_time_minutes</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>watch_sessions_per_week</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[watch_sessions_per_week]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>watch_sessions_per_week</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>binge_watch_sessions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[binge_watch_sessions]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>binge_watch_sessions</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>completion_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[completion_rate]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>completion_rate</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating_given</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rating_given]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>rating_given</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>content_interactions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[content_interactions]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>content_interactions</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recommendation_click_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[recommendation_click_rate]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>recommendation_click_rate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>days_since_last_login</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[days_since_last_login]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>days_since_last_login</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>churned</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[churned]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>churned</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>churn_flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[churn_flag]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>churn_flag</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_group]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>age_group</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>watch_time_segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[watch_time_segment]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>watch_time_segment</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>login_activity_segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[login_activity_segment]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>login_activity_segment</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monthly_revenue]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>monthly_revenue</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annualized_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annualized_revenue]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>annualized_revenue</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_revenue_at_risk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monthly_revenue_at_risk]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>monthly_revenue_at_risk</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[customer_status]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>customer_status</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_monthly_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_monthly_revenue]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>estimated_monthly_revenue</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue_at_risk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue_at_risk]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>revenue_at_risk</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>engagement_segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[engagement_segment]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>engagement_segment</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>binge_segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[binge_segment]</local-name>
+            <parent-name>[netflix_user_analytics.csv]</parent-name>
+            <remote-alias>binge_segment</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='netflix_user_analytics.csv' datatype='table' name='[__tableau_internal_object_id__].[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]' role='measure' type='quantitative' />
+      <column caption='Account Age Months' datatype='real' name='[account_age_months]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='real' name='[age]' role='measure' type='quantitative' />
+      <column caption='Age Group' datatype='string' name='[age_group]' role='dimension' type='nominal' />
+      <column caption='Annualized Revenue' datatype='real' name='[annualized_revenue]' role='measure' type='quantitative' />
+      <column caption='Avg Watch Time Minutes' datatype='real' name='[avg_watch_time_minutes]' role='measure' type='quantitative' />
+      <column caption='Binge Segment' datatype='string' name='[binge_segment]' role='dimension' type='nominal' />
+      <column caption='Binge Watch Sessions' datatype='real' name='[binge_watch_sessions]' role='measure' type='quantitative' />
+      <column caption='Churn Flag' datatype='integer' name='[churn_flag]' role='measure' type='quantitative' />
+      <column caption='Churned' datatype='string' name='[churned]' role='dimension' type='nominal' />
+      <column caption='Completion Rate' datatype='real' name='[completion_rate]' role='measure' type='quantitative' />
+      <column caption='Content Interactions' datatype='real' name='[content_interactions]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Customer Status' datatype='string' name='[customer_status]' role='dimension' type='nominal' />
+      <column caption='Days Since Last Login' datatype='real' name='[days_since_last_login]' role='measure' type='quantitative' />
+      <column caption='Devices Used' datatype='real' name='[devices_used]' role='measure' type='quantitative' />
+      <column caption='Engagement Segment' datatype='string' name='[engagement_segment]' role='dimension' type='nominal' />
+      <column caption='Estimated Monthly Revenue' datatype='real' name='[estimated_monthly_revenue]' role='measure' type='quantitative' />
+      <column caption='Favorite Genre' datatype='string' name='[favorite_genre]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Login Activity Segment' datatype='string' name='[login_activity_segment]' role='dimension' type='nominal' />
+      <column caption='Monthly Fee' datatype='real' name='[monthly_fee]' role='measure' type='quantitative' />
+      <column caption='Monthly Revenue' datatype='real' name='[monthly_revenue]' role='measure' type='quantitative' />
+      <column caption='Monthly Revenue At Risk' datatype='real' name='[monthly_revenue_at_risk]' role='measure' type='quantitative' />
+      <column caption='Payment Method' datatype='string' name='[payment_method]' role='dimension' type='nominal' />
+      <column caption='Primary Device' datatype='string' name='[primary_device]' role='dimension' type='nominal' />
+      <column caption='Rating Given' datatype='real' name='[rating_given]' role='measure' type='quantitative' />
+      <column caption='Recommendation Click Rate' datatype='real' name='[recommendation_click_rate]' role='measure' type='quantitative' />
+      <column caption='Revenue At Risk' datatype='real' name='[revenue_at_risk]' role='measure' type='quantitative' />
+      <column caption='Subscription Type' datatype='string' name='[subscription_type]' role='dimension' type='nominal' />
+      <column caption='User Id' datatype='string' name='[user_id]' role='dimension' type='nominal' />
+      <column caption='Watch Sessions Per Week' datatype='real' name='[watch_sessions_per_week]' role='dimension' type='quantitative' />
+      <column caption='Watch Time Segment' datatype='string' name='[watch_time_segment]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ENRIQU~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1pbhvby1y3yi3i10zj2de0u6kisi.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/12/2026 11:03:59 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>user_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[user_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>user_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>50000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>3</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>account_age_months</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[account_age_months]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>account_age_months</remote-alias>
+              <ordinal>4</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>subscription_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[subscription_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>subscription_type</remote-alias>
+              <ordinal>5</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>monthly_fee</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[monthly_fee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>monthly_fee</remote-alias>
+              <ordinal>6</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>payment_method</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[payment_method]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>payment_method</remote-alias>
+              <ordinal>7</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>primary_device</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[primary_device]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>primary_device</remote-alias>
+              <ordinal>8</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>devices_used</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[devices_used]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>devices_used</remote-alias>
+              <ordinal>9</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>favorite_genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[favorite_genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>favorite_genre</remote-alias>
+              <ordinal>10</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_watch_time_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_watch_time_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_watch_time_minutes</remote-alias>
+              <ordinal>11</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>498</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>watch_sessions_per_week</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[watch_sessions_per_week]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>watch_sessions_per_week</remote-alias>
+              <ordinal>12</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>binge_watch_sessions</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[binge_watch_sessions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>binge_watch_sessions</remote-alias>
+              <ordinal>13</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>completion_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[completion_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>completion_rate</remote-alias>
+              <ordinal>14</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rating_given</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rating_given]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rating_given</remote-alias>
+              <ordinal>15</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>content_interactions</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[content_interactions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>content_interactions</remote-alias>
+              <ordinal>16</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recommendation_click_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[recommendation_click_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recommendation_click_rate</remote-alias>
+              <ordinal>17</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>days_since_last_login</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[days_since_last_login]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>days_since_last_login</remote-alias>
+              <ordinal>18</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>churned</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[churned]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>churned</remote-alias>
+              <ordinal>19</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>churn_flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[churn_flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>churn_flag</remote-alias>
+              <ordinal>20</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_group</remote-alias>
+              <ordinal>21</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>watch_time_segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[watch_time_segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>watch_time_segment</remote-alias>
+              <ordinal>22</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>login_activity_segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[login_activity_segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>login_activity_segment</remote-alias>
+              <ordinal>23</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>monthly_revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[monthly_revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>monthly_revenue</remote-alias>
+              <ordinal>24</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>annualized_revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[annualized_revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annualized_revenue</remote-alias>
+              <ordinal>25</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>monthly_revenue_at_risk</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[monthly_revenue_at_risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>monthly_revenue_at_risk</remote-alias>
+              <ordinal>26</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>customer_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[customer_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>customer_status</remote-alias>
+              <ordinal>27</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estimated_monthly_revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[estimated_monthly_revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>estimated_monthly_revenue</remote-alias>
+              <ordinal>28</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>revenue_at_risk</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[revenue_at_risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>revenue_at_risk</remote-alias>
+              <ordinal>29</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>engagement_segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[engagement_segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>engagement_segment</remote-alias>
+              <ordinal>30</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>binge_segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[binge_segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>binge_segment</remote-alias>
+              <ordinal>31</ordinal>
+              <family>netflix_user_analytics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='netflix_user_analytics.csv' id='netflix_user_analytics.csv_0B14A956D178425BAE9DFAB88488B07F'>
+            <properties context=''>
+              <relation connection='textscan.0p7jr8m1fs6zck1a9fizt1dwwoft' name='netflix_user_analytics.csv' table='[netflix_user_analytics#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='user_id' ordinal='0' />
+                  <column datatype='real' name='age' ordinal='1' />
+                  <column datatype='string' name='gender' ordinal='2' />
+                  <column datatype='string' name='country' ordinal='3' />
+                  <column datatype='real' name='account_age_months' ordinal='4' />
+                  <column datatype='string' name='subscription_type' ordinal='5' />
+                  <column datatype='real' name='monthly_fee' ordinal='6' />
+                  <column datatype='string' name='payment_method' ordinal='7' />
+                  <column datatype='string' name='primary_device' ordinal='8' />
+                  <column datatype='real' name='devices_used' ordinal='9' />
+                  <column datatype='string' name='favorite_genre' ordinal='10' />
+                  <column datatype='real' name='avg_watch_time_minutes' ordinal='11' />
+                  <column datatype='real' name='watch_sessions_per_week' ordinal='12' />
+                  <column datatype='real' name='binge_watch_sessions' ordinal='13' />
+                  <column datatype='real' name='completion_rate' ordinal='14' />
+                  <column datatype='real' name='rating_given' ordinal='15' />
+                  <column datatype='real' name='content_interactions' ordinal='16' />
+                  <column datatype='real' name='recommendation_click_rate' ordinal='17' />
+                  <column datatype='real' name='days_since_last_login' ordinal='18' />
+                  <column datatype='string' name='churned' ordinal='19' />
+                  <column datatype='integer' name='churn_flag' ordinal='20' />
+                  <column datatype='string' name='age_group' ordinal='21' />
+                  <column datatype='string' name='watch_time_segment' ordinal='22' />
+                  <column datatype='string' name='login_activity_segment' ordinal='23' />
+                  <column datatype='real' name='monthly_revenue' ordinal='24' />
+                  <column datatype='real' name='annualized_revenue' ordinal='25' />
+                  <column datatype='real' name='monthly_revenue_at_risk' ordinal='26' />
+                  <column datatype='string' name='customer_status' ordinal='27' />
+                  <column datatype='real' name='estimated_monthly_revenue' ordinal='28' />
+                  <column datatype='real' name='revenue_at_risk' ordinal='29' />
+                  <column datatype='string' name='engagement_segment' ordinal='30' />
+                  <column datatype='string' name='binge_segment' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>KPI - Total Users</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='netflix_user_analytics' name='federated.1mqkgsx11mhwgw13a12se0ivmzog' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mqkgsx11mhwgw13a12se0ivmzog'>
+            <column-instance column='[user_id]' derivation='CountD' name='[ctd:user_id:qk]' pivot='key' type='quantitative' />
+            <column caption='User Id' datatype='string' name='[user_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1mqkgsx11mhwgw13a12se0ivmzog].[ctd:user_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>TOTAL USERS</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='32'><![CDATA[<[federated.1mqkgsx11mhwgw13a12se0ivmzog].[ctd:user_id:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A9BFB16D-DB58-4A98-A888-1CD82910A7C1}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mqkgsx11mhwgw13a12se0ivmzog].[none:user_id:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{81260836-F5BE-420E-ADC8-D18B77B867AF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='125' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
