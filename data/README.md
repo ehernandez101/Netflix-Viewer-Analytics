@@ -12,3 +12,14 @@ non-commercial, share-alike license. To reproduce the analysis, download
 `netflix_reviews.csv` from the Kaggle page above and place it in this folder.
 My analysis used a snapshot with reviews through October 6, 2026. The dataset
 is refreshed daily, so newer downloads will differ.
+
+## Files in this repository derived from the reviews
+
+All derived files contain no review text and no user names.
+
+| File | What it is |
+|---|---|
+| processed/reviews/review_monthly_summary.csv | Monthly review count and average rating, built by `python/03_review_summary.py` |
+| processed/reviews/review_complaint_themes.csv | Theme shares with 95% Wilson intervals, built from the sample labels |
+| processed/reviews/review_sample_labels.csv | 300 sampled 1-2 star reviews: review ID, score, month, theme (no text) |
+| processed/tableau/churn_whatif_inputs.csv | Three summary numbers from the synthetic user-behavior data, used as defaults in the what-if model |
