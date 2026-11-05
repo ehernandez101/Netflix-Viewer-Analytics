@@ -1,2 +1,6 @@
 data/netflix_reviews.csv
 data/processed/netflix_reviews_clean.csv
+
+netflix_reviews*.csv
+*.twb
+SPOTCHECK*
