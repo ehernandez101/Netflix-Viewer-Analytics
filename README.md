@@ -68,7 +68,7 @@ The interactive dashboard is available on Tableau Public. Raw Google Play review
 
 1. Download `netflix_reviews.csv` from Kaggle (see `data/README.md`) into `data/`.
 2. Run `python python/03_review_summary.py --reviews data/netflix_reviews.csv`. This rewrites the files in `data/processed/reviews/`. A newer download will give different numbers, because the dataset is refreshed daily.
-3. To run the SQL, load the reviews into a table `reviews(review_id, score, review_date)` (Kaggle columns `reviewId`, `score`, `at`) and `data/processed/reviews/review_sample_labels.csv` into `review_sample_labels(review_id, score, review_month, theme)`.
+3. To run the SQL, load the reviews into a table `reviews(review_id, score, review_date)` (Kaggle columns `reviewId`, `score`, `at`) and `data/processed/reviews/review_sample_labels.csv` (columns `reviewId`, `score`, `month`, `theme`) into `review_sample_labels(review_id, score, review_month, theme)`, mapping `reviewId` to `review_id` and `month` to `review_month`.
 
 ## Disclaimer
 
