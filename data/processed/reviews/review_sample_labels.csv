@@ -1,0 +1,301 @@
+reviewId,score,month,theme
+024908f4-62b7-4c2a-ad71-38a218d904db,1,2025-02,Price/billing
+4ced1d1d-3b71-4205-8d90-8d2aa2651e04,2,2026-05,App features/UX
+c16be777-d30a-4b47-bd54-b2c704c704d6,2,2025-01,Household/sharing
+79cdf60b-cc7c-4187-82ac-e1e9f3d55060,1,2026-01,Login/account
+652eb406-b2be-45e5-832f-06ac1bbb759e,1,2025-12,Playback/bugs
+fc299723-b6bf-4543-8711-cb5caa6f1f59,1,2026-03,Price/billing
+4e2253e8-31cf-4f67-9bc6-383d49b9372a,1,2025-12,Price/billing
+48eeea26-1e84-43c3-bc77-d63679ddc5ed,1,2025-06,Price/billing
+22221e9c-9890-4e72-922a-e5097d255eaa,1,2025-01,Playback/bugs
+03978a1c-6bf6-44e2-8115-63b6be249d7a,1,2026-03,Playback/bugs
+cd7ce17c-62f8-4906-baca-b14fb4aea614,2,2025-09,Playback/bugs
+61bee290-dc90-4ba2-aafd-a8063a527660,1,2025-06,Catalog/content
+a4f458da-0b3a-49ba-99f1-c95d23141bed,1,2025-01,Login/account
+8088ac9e-586a-459c-9769-927a4a5f53fd,1,2025-02,Price/billing
+f17d1b03-23ec-4cfb-9721-f8d934c14de2,1,2025-03,Household/sharing
+45f7df69-1278-4272-9300-c70623c11353,1,2025-03,Catalog/content
+322bc453-497b-4bd7-a1e3-a604d049cd60,1,2025-11,Login/account
+574b87d9-8578-4b12-a2dc-74cd4d7b9b45,1,2026-02,Playback/bugs
+3ba93b0d-2a72-46ab-b421-660fa4338d4a,1,2025-10,Price/billing
+09deaa13-7ec2-49a9-9e54-ed634e217183,1,2026-03,Catalog/content
+7b5f7bd3-dde4-449f-a9d5-7edef25544bf,1,2026-05,Playback/bugs
+b0dec79c-41a7-4dbf-a808-832a6e0f2357,2,2025-09,Household/sharing
+9c7cd860-0c26-48f6-b79e-01e84429d5ca,1,2026-03,Playback/bugs
+45c870c9-4268-434c-a84f-a4d34f9e2f68,1,2026-05,Household/sharing
+ca20c278-d22c-426d-95f9-254ce337f1a4,1,2026-04,App features/UX
+265b67c5-2896-4e59-9ef3-82795a64dfd8,1,2025-05,Other/vague
+a425d31b-5eb4-4c7e-9e28-311d66aed7fe,1,2025-06,Household/sharing
+fe5167fa-00aa-4545-b5af-022c6b3888ec,1,2025-06,Login/account
+18c91c4a-8324-456d-9246-0bb6fab3b69a,1,2025-09,Price/billing
+97236dac-bd1b-4850-a678-799242aa1e81,2,2026-04,Catalog/content
+c969b421-c581-44a1-b26d-3b86a4462371,1,2025-02,App features/UX
+b69d562e-fa0c-49e5-a193-f7f23e7a088d,1,2025-01,Playback/bugs
+153df7eb-1f19-436d-be47-ce6dd44b8634,1,2026-03,Playback/bugs
+44962b24-be38-4958-83be-341e0a01ea13,1,2025-10,App features/UX
+b132cb02-6edc-4822-ab7d-48818485b446,1,2025-01,Playback/bugs
+b5670dd4-614e-4a40-bc84-b8adf7830192,1,2025-02,Playback/bugs
+478d4b04-8afb-4c50-973f-7268963bcafc,1,2025-06,Playback/bugs
+251459fc-a0a5-457b-b3d8-8a4935642aec,1,2026-06,Playback/bugs
+3cc40a19-af85-4215-91ac-3d91e2d08416,1,2025-06,Price/billing
+6e5e84af-7a59-40e4-a927-488c6c61eb1d,1,2025-09,Ads
+a6c09281-7b13-4227-af3a-792e68cef73d,2,2025-06,Playback/bugs
+4b21be0b-7420-45bd-9812-2e786a599745,1,2026-01,Other/vague
+0c10654e-b50d-48c5-9bc0-54728b8e72e4,1,2026-01,Playback/bugs
+0aa9f4eb-64ac-413b-815f-439b10ee4972,1,2025-01,Login/account
+ce15986f-8bde-48fe-95d6-a60c87b3cd18,1,2025-04,Catalog/content
+7b4b4599-ee49-4a4a-8978-407155da9ae1,1,2025-04,Price/billing
+cc7ad711-2d79-48ee-9515-6e6500386981,1,2025-05,Playback/bugs
+96f06678-5e71-4b9a-879e-ece3e913be74,1,2026-02,Playback/bugs
+854d9088-2207-40dc-b45d-4bd399f5710f,1,2025-01,App features/UX
+3314f24d-aaa8-4c14-9207-78229ac458fd,1,2025-10,Playback/bugs
+a4904be9-cb34-490a-983c-d49ad2d122c4,1,2025-12,Playback/bugs
+3d1979e1-5829-45f5-a3e6-2b4356b13b3e,2,2025-10,Catalog/content
+6beb3d26-06b7-4f23-bfd2-3e9e700cb3e3,1,2026-01,Playback/bugs
+32daeff3-6682-4f5b-ab19-88c73fe258f4,1,2025-12,App features/UX
+ffef54d1-f9da-464d-adac-83a3bfe707d2,1,2025-12,Playback/bugs
+97604dec-25aa-4731-b18a-4f1b862ed61f,1,2025-12,App features/UX
+b559675d-39c2-48ad-9e52-e05834e37793,1,2025-03,Other/vague
+bc6a1a72-3bfd-46c2-ba76-c4ba61194438,1,2026-04,Catalog/content
+a3ae241b-bb3c-4830-906e-da64b140007d,1,2025-01,Price/billing
+8c0c742c-2510-4d2a-aaa3-4e45f5bc2b26,1,2026-06,Login/account
+50fb93df-97da-4d4e-8680-e12b7f21de04,1,2025-10,Login/account
+24e4f156-9e0e-4bf5-b7bd-b2e4c37e3144,1,2025-04,Support
+4e397b8b-8f2c-4aac-a0a2-68d34a7b0107,1,2025-01,Other/vague
+399d6129-bd41-4a2a-8bae-57e781d44b62,1,2025-05,Login/account
+12388fa5-162d-454d-8ec8-0f7d6ccc2f98,1,2026-05,Playback/bugs
+b308c4d3-11fb-4305-9c9d-93163bd5ea74,2,2025-04,Login/account
+dd4d1d35-9a18-4848-a31e-5ef0169eb0f4,1,2025-04,Other/vague
+27b0007e-8828-4f36-b34e-a89dc30d7a65,2,2025-01,Login/account
+63e09e74-2a11-4cd0-8c97-771b594aeb34,1,2025-09,App features/UX
+a111ac6a-e63b-4ed0-a436-eb586085e6b9,1,2025-03,App features/UX
+2f16436b-0794-46de-a19d-bda0772a8ac3,1,2025-04,Catalog/content
+13efbb75-c679-4fed-b631-b9bbf53a9c26,1,2025-05,Catalog/content
+4c1cb0f8-3d70-4bb8-848d-93e729d39df5,1,2026-04,Playback/bugs
+ba395f18-74ed-414d-8aaf-88bc3a8a4127,1,2025-02,Playback/bugs
+2414cd20-14f0-4d2d-be99-46fc9c9ab69c,1,2026-06,Other/vague
+f1b33cff-cd5c-45b5-91d1-4702abb4c3e7,1,2025-04,Catalog/content
+d6d7da3e-f347-4520-ac1b-d90290de9b84,1,2025-10,Household/sharing
+953687c9-47ea-4573-a1b3-8b59e17bb11e,1,2026-06,App features/UX
+2559ea62-f68a-4770-8461-1d0d1709db3f,2,2025-02,Other/vague
+730c592a-eace-402e-bba4-606c7b002e4d,2,2026-04,Catalog/content
+48beed0f-936e-4299-8966-4dee92cde557,1,2025-10,Household/sharing
+fd975504-860d-4dd8-b788-398cfbcc2342,1,2025-10,Catalog/content
+439328c1-8bc5-4267-aedc-aa1e172bc890,1,2025-04,Other/vague
+17cce876-aaf7-4188-83c6-be1e8fbcee28,1,2025-04,Price/billing
+a3514b8e-dca1-4cac-ac8c-2a4975360b1b,2,2025-04,Playback/bugs
+6735cc99-13c9-4a93-8150-e3f00030ea80,1,2026-01,App features/UX
+3ed828c4-b22d-4cc6-90ef-c80a53046b32,1,2025-04,Catalog/content
+1581b274-46ec-4382-a784-53977ec4a9c2,1,2026-06,Other/vague
+e3274406-068c-47aa-9aaf-40019d962816,1,2026-03,Other/vague
+af1c6631-b044-4332-9972-e61d96935ea3,1,2025-06,Playback/bugs
+33c2aa39-b754-4b53-8bb7-273e415fab83,1,2025-10,Price/billing
+7c96f390-66fe-4e22-ac19-fbccc8b599b6,2,2025-06,Catalog/content
+29b4bf26-caba-402f-b71c-26853ed6205c,2,2025-05,Household/sharing
+53291d39-38c1-4368-82c6-d450f68332a4,2,2025-02,Other/vague
+6c20e04d-7532-417f-8367-3b4f6be1debd,1,2026-03,Playback/bugs
+4d76782e-6ac4-4114-8d23-c35b7dd0a565,1,2025-02,Playback/bugs
+71494c26-e37a-4d69-aa2a-949fcbbd657c,1,2025-03,Playback/bugs
+fa80bd7d-fa2b-4931-97c7-eda7681725f0,2,2025-03,Household/sharing
+3aa8180d-fff1-4290-b10d-488b9e26c874,1,2026-04,Playback/bugs
+44aed225-5a73-4803-9aae-a365750cf690,2,2025-02,Price/billing
+fe93778c-57f4-4421-9fb8-e788674c0f24,1,2025-12,Login/account
+d005225a-897c-4afc-a032-0222d5828f49,1,2026-06,Login/account
+b24dd938-5ee4-4f36-aff8-8a3a68752e87,1,2025-10,Household/sharing
+b924f008-015e-4b4c-a1f4-7864eb923bfc,1,2025-02,Login/account
+c5ad199f-9d12-46a5-8cfd-88ae7a131c9a,1,2025-06,App features/UX
+92da63ec-bf6b-4fe3-84b5-1a54a5cc9da6,1,2025-03,Catalog/content
+a3f28d68-a9ff-47aa-bf94-dcb3d33db821,1,2025-01,Playback/bugs
+240af7c0-6dc7-41df-92f5-756f2b9e1276,1,2025-02,Price/billing
+b2e0cfe7-ba65-43af-9258-b00e70a5b6d7,2,2025-05,Playback/bugs
+86451056-e05f-4623-b749-a092d9bef9f5,1,2026-06,Catalog/content
+07375bdd-6ae2-4c02-88ba-173815fc49ad,1,2025-02,Playback/bugs
+074ecb22-a3a2-4b44-992d-6ba4182109c0,2,2026-05,Catalog/content
+5f394eb8-bc0c-460a-8e9f-7a37e5e79a74,1,2025-05,Playback/bugs
+46ca5b67-c84d-4bad-bfc7-e09204373e7f,1,2026-06,Price/billing
+69a93a5c-91f8-4a6e-8a15-241e4eac9198,1,2025-03,Login/account
+39fa8773-fbf7-4e14-becf-7b27c8220769,1,2026-03,Playback/bugs
+490df8ea-e1c1-43ce-8285-c64d9ae98d62,1,2025-04,Login/account
+36978d9d-4575-4554-902f-3f157c1138de,1,2025-11,Household/sharing
+6f4b12dc-3774-4701-af64-0255a6249f51,1,2025-03,Playback/bugs
+614e834d-2ac0-4721-ad56-b55291c58c7b,1,2025-10,Playback/bugs
+ea15af2a-678b-4c0a-8ea3-cecb455d1f7f,1,2025-06,Catalog/content
+6ad0c4db-91e5-4feb-86ab-6ea8ccc40d7b,1,2025-01,Playback/bugs
+b2065349-e760-4cd4-b028-c52acd01ff8e,1,2026-06,Household/sharing
+7e4ba0f2-cec4-4aa1-8ccd-28954b5d9a9c,1,2025-02,Catalog/content
+eff31f9e-007e-4767-9a56-ebb753756b60,2,2026-06,Playback/bugs
+f8afe733-1c5d-4f97-bc69-2101dc0b5f7e,1,2026-01,Playback/bugs
+712afd30-bc2c-4c0e-a6f0-a5478544b72c,1,2025-10,Playback/bugs
+9e2d8949-8ad8-4caf-91ad-a5e50b2051a5,1,2026-02,Household/sharing
+06f354e2-06bf-4fba-9def-60dff5e52d1d,1,2025-10,Playback/bugs
+042d0841-5a45-4b1c-bcea-0516ffda3e25,1,2025-02,Catalog/content
+4936f93b-dc9d-4bc8-97c4-c7f93c6b6491,1,2025-05,Login/account
+49dddd50-4924-44d6-92d5-1bb8f44720dc,1,2025-06,Household/sharing
+08c73195-8df2-412a-a2f3-1fdebc0430f7,1,2025-01,Price/billing
+b74d1466-ebc8-4d33-9831-78f816042af9,1,2025-06,Login/account
+a9113e54-d9e4-4d57-8bcb-36c09a6a1de3,1,2025-09,Price/billing
+9014bb83-a638-4530-a9d4-496a97b3e298,1,2026-05,App features/UX
+a6a2aa44-c1bc-4c86-8864-dee887e7dbd0,2,2025-04,Catalog/content
+dd95c4af-833a-49c6-941a-22b04519f279,1,2026-01,Playback/bugs
+f0548a8a-46c0-4ffd-a23e-b5678eb45143,1,2025-11,Price/billing
+654bc0df-abf6-497d-add8-9c9b344b8031,1,2026-02,Catalog/content
+9bd7503e-30d5-47e7-86de-d6ebd539915c,1,2025-04,App features/UX
+e556d15d-1859-4588-8930-1836f2e9dcdd,1,2025-02,Catalog/content
+268d4ba1-b4ed-47a6-ab78-3c8712472108,2,2026-05,Login/account
+dd11159b-c44d-4afa-9ed2-001ca47f9035,1,2025-02,App features/UX
+c5e16415-8cba-49a7-8bae-687ff15ac938,1,2025-04,App features/UX
+355b1dcc-d7b3-42a8-a7a5-31b4b766d1c5,1,2026-05,Playback/bugs
+40a3f548-7822-456f-906f-f0507fcf7782,1,2025-09,Login/account
+e1bcb2a1-5fbd-40b9-8922-7e1a1ca8a375,1,2026-03,Catalog/content
+79e20e64-e727-4d96-a1d6-2473752c7e70,2,2025-12,App features/UX
+f8b25090-04cd-4a60-8d1b-a89e8d81d214,1,2025-03,Playback/bugs
+a369390b-0ec3-4eeb-812f-213dad289ef0,1,2025-12,Price/billing
+ae38226e-f7b8-47b0-84eb-2939aea52cc5,1,2025-10,Playback/bugs
+979bc7be-a955-4a41-879e-170231d618f4,1,2026-03,Catalog/content
+21fad74c-aa57-415b-8e3e-39bf99cf4a07,1,2026-03,Other/vague
+bdb00ad1-4a52-44ba-a73d-db388346faa1,1,2025-09,Price/billing
+18d9a904-3893-42b3-a6ed-b615e5b627a4,1,2025-04,Other/vague
+5aca989f-b256-4aab-a35b-72067354f6b2,1,2025-06,Playback/bugs
+00404e8f-72d9-4bb3-a0a1-2ab6614a3bb0,1,2025-04,Playback/bugs
+a5e2597d-b9db-4677-9c11-d277eb8c52c1,1,2025-02,App features/UX
+44090749-7520-41e2-89a2-4f7f510a04a0,2,2025-10,Price/billing
+9fc085e1-9da5-4a8f-89e7-80f7c7e8ae5e,1,2025-02,Playback/bugs
+3576ca8c-14b1-4af2-a3e1-e20c9e489077,2,2026-04,Login/account
+0f466bee-0f62-407d-a870-608f66d943c5,1,2025-01,Price/billing
+eeb6e12c-3893-4278-9023-0bf42bf0cb16,1,2025-04,Login/account
+3fd12468-2b59-4317-bff8-eca9a9fda686,1,2025-05,Price/billing
+47db3158-ff7e-4327-b021-a86d2f301f90,1,2026-06,Catalog/content
+6ed882af-ed0b-4294-a635-c0b546f768a4,1,2025-01,Login/account
+79c8b4a0-d570-440a-9ee9-a1bf841d3324,1,2025-09,Household/sharing
+1c40ea5f-e1c1-4455-bdd0-99a2cefa361e,1,2025-02,Price/billing
+613f974b-5d01-44fd-990f-12bccc531a4e,1,2026-01,Price/billing
+119dad3e-e368-4b0e-acf4-41ee09f01567,1,2026-01,Other/vague
+9f193bba-9ca3-4582-afbe-b75140ebbb2f,1,2025-10,Other/vague
+3e511be7-e8e9-43f4-889c-9fdcea27e5b2,1,2026-01,Playback/bugs
+1d5969c6-0dde-4ef5-82a9-ee9381cf6c25,1,2025-01,Catalog/content
+4d41f69b-eff6-4579-8d02-044e7811ba1f,1,2025-12,Playback/bugs
+a82bc110-3d27-43d4-915e-1e08475d4717,1,2025-06,Playback/bugs
+5169ad66-699b-45f4-bf78-c725f5810abb,2,2025-02,Household/sharing
+e53043e6-7cad-4cee-a841-f75b87597cb8,1,2025-10,Login/account
+ed720757-a3cb-4346-b7d3-d525b2891cc9,1,2025-09,Playback/bugs
+76678689-d8f7-4870-9fa9-4df35b07b9ed,1,2025-06,Login/account
+ca2bea26-4b7e-4dae-883c-46f1385a25be,1,2025-10,Other/vague
+0f9a0e87-43ba-4282-b318-6f3207575bda,1,2025-03,Catalog/content
+0eaaa697-9146-4763-8c92-f2a4d9d0c9fb,1,2026-01,Ads
+32e3aadc-dd44-4b01-8621-44b9d4806790,1,2026-03,Catalog/content
+90ac90c5-e37b-4222-8f29-bd77d8ffe50a,1,2026-03,Playback/bugs
+e217ddfd-551b-4204-8c2c-4784852678ff,1,2025-04,Login/account
+8e6f7045-31ef-48e6-98a9-8512aa894d58,1,2026-05,Catalog/content
+3f082b53-4994-4f0d-b7cf-b8c48889d5ed,1,2025-11,Playback/bugs
+1eeb8706-8222-489d-91f0-4438257282ad,1,2025-11,App features/UX
+16d616df-f25a-45f4-b6f9-520cb237eda5,1,2025-01,Playback/bugs
+57a0fd46-2eaf-4d1e-92e9-b0c6971b74c0,1,2025-05,Other/vague
+587e764d-b376-46ea-9653-d1705cd0a4f0,1,2025-03,Playback/bugs
+d6bc609d-66de-4786-9842-cd0f72d1a2b0,1,2026-03,Catalog/content
+dc59fb9e-cd46-49c2-bff5-d7cbee4cfa03,1,2025-04,Playback/bugs
+5b65614b-5c77-4c79-8297-391f24612e2d,1,2025-01,Login/account
+4082ad31-8950-485b-8697-90fd6375cb7d,1,2026-04,Price/billing
+6c06032f-8c58-4691-84f4-5fb4cef5bd2e,2,2025-01,Other/vague
+fc54676d-dfe0-40f8-a52c-809e8ba85453,1,2025-04,Playback/bugs
+86e53d70-3c2d-4f71-a027-0793686d3727,1,2026-05,Catalog/content
+038c6abf-aeaf-4b2b-869e-515bca55b793,1,2025-02,Playback/bugs
+abcae07a-bfc7-484f-9614-c098161a6c1c,1,2026-02,Other/vague
+47631076-0b28-429e-abc1-e12a2557bb9b,1,2026-05,Login/account
+4c80af67-ee44-4914-9ee9-4606c4979f43,1,2025-04,Catalog/content
+40112a89-136e-4a95-9d5f-0cdc56ee1a9d,1,2025-09,Playback/bugs
+d3ef7b05-c2cc-4f5f-bc6e-9224966715c1,1,2025-03,Playback/bugs
+504d55e5-3724-45ec-9e70-6b3ef5936093,1,2025-06,Catalog/content
+5e4f3833-0f8c-4683-8d90-5d14009c113e,1,2025-10,Playback/bugs
+ccbf87ce-2e8c-4aa2-af90-1b2ba7baae12,1,2025-03,App features/UX
+b33407e7-fa82-417c-bb83-384c4af49228,1,2025-02,Price/billing
+f2e2457c-5087-4f1d-83bd-9e6f248d0495,1,2026-03,Catalog/content
+48bb66d1-2873-4657-ad4b-df014bdaa897,1,2025-12,Catalog/content
+129b4af3-3c9b-4906-8fbc-56549ec429b7,1,2025-01,Ads
+6995e5a5-4984-485a-a0eb-bae91e60d34c,2,2026-05,App features/UX
+2bac6e77-8981-4dde-a8e4-4349f8141461,1,2025-05,Household/sharing
+b466a520-896c-4308-8c98-753d666f07c4,1,2025-10,App features/UX
+e5d47dde-5c01-47c9-99d3-7702db99d5b9,1,2026-03,Catalog/content
+bacced73-1be3-405c-bbe9-ee9e2f1d6418,1,2025-01,Catalog/content
+30e8f4c8-f601-4e8a-9a1f-748ad8c22a86,1,2026-05,Playback/bugs
+4f06d889-919e-4b12-b3a4-03035dbb6181,1,2025-06,Catalog/content
+e7b162d8-d127-4fb6-a98d-8ce7d405e7ff,1,2025-11,Catalog/content
+65c1b890-e823-43e7-910f-f6921c370218,1,2025-12,Catalog/content
+8e788d46-b500-417b-a2c5-b410716a660e,1,2025-03,Playback/bugs
+bc6c3d5b-2eb4-4ca7-bb0d-44fac8d1450e,1,2026-06,Catalog/content
+a67ee786-c87f-4326-95cf-1c6a79db614a,1,2025-06,Playback/bugs
+439d9465-e984-4c5c-924e-deed434768c2,2,2025-01,Login/account
+2a6d7969-2fbb-47c2-9123-8e787190c3d3,1,2025-04,Playback/bugs
+23d4bcec-473e-4d66-b28f-e3fc290b747d,1,2025-01,Playback/bugs
+4b68191f-c452-4f6c-b3fc-f331d523fbfd,1,2025-02,Price/billing
+11eb7a7b-b5c1-4e3f-93cc-b474dbb58901,1,2025-11,App features/UX
+ebca916d-1e0d-44dd-94b1-4f89fe4bd351,2,2026-04,Playback/bugs
+46b688cc-14d3-4424-98c4-22c260143590,1,2026-04,Household/sharing
+03963ed0-c03f-463f-b5dd-902b42c5a780,1,2025-02,Other/vague
+d91373d0-40fa-4ecf-ba2c-55a06639c9e7,1,2026-03,Catalog/content
+603406de-d4a4-420e-9fa9-b06a01e3288d,1,2025-05,Household/sharing
+d4636ce4-1ebd-4391-ace0-f5b4064d5cd1,1,2025-02,Price/billing
+d1d3f9e1-ee5a-4a10-be33-5f31dba99eb9,1,2025-03,Login/account
+dfaf0633-8ee6-4cd8-84fc-7b1da80b9ee3,1,2026-04,Playback/bugs
+48b5b774-666f-48ce-b879-8de637d17748,1,2026-02,Playback/bugs
+86396dd3-3d4a-4ea1-924c-64d7d9fd9e5a,1,2025-01,Ads
+146bfb98-c1b9-488a-8604-4d4610e35f42,1,2025-10,Household/sharing
+9d7a15ec-8dac-4944-a794-5df5b056cee8,1,2026-03,Catalog/content
+c19721e8-28fb-48ee-b9d6-07cababcbe43,1,2025-01,Playback/bugs
+18b68975-75d8-4ec7-a38f-cbd4fd94cd02,1,2025-05,Catalog/content
+01672eb2-be86-4981-8a91-b7b122803f36,1,2025-01,Playback/bugs
+1833317f-f20b-40a5-89a1-676917e8761c,1,2025-06,App features/UX
+322cf8e9-d29e-4a92-af6e-0b655510dbfb,1,2025-04,Household/sharing
+a315e3fe-2eba-4156-acf8-c22fc6c57ded,1,2026-04,Price/billing
+06f354e2-06bf-4fba-9def-60dff5e52d1d,1,2025-01,App features/UX
+3e8319dc-0eab-4fe3-8d62-af0eb1578705,1,2025-09,Other/vague
+801fd9ab-4fbe-4bc4-b653-80ef08c08155,1,2025-03,Price/billing
+fdb805a8-6a82-4ce5-8432-93f85c3bc882,1,2025-05,Login/account
+eeeecc05-20ec-46e0-a175-51cfc53eacfb,2,2025-09,Playback/bugs
+4f1c5ab0-8f35-46bf-a99b-4f1a4d3570cf,1,2025-04,Catalog/content
+2d6b513c-2df3-4787-a7d9-f9b287973a7e,1,2026-03,Other/vague
+3202e742-c264-44c9-aa2e-447f9ffba75e,2,2025-09,Playback/bugs
+635240e3-6205-4841-9e93-a9f9673650e8,1,2025-02,Price/billing
+38eda0ab-62a7-4860-bfbb-96c5ce71db3e,1,2025-12,App features/UX
+6a872395-c603-4f67-9d98-72b69d54ffb2,1,2026-01,Playback/bugs
+7aec3148-fa39-44b7-88f5-ec046e098952,1,2025-03,Price/billing
+1cb007b8-f0ee-4729-919d-e41af93da071,1,2026-06,App features/UX
+88b676d3-7f6c-48af-9af6-a6daa5096d32,1,2025-03,Catalog/content
+6948c935-7a31-4c37-9be0-19eca86f9d8b,1,2026-02,Login/account
+43bd583b-4595-4c77-8dc5-fe97a39bb15d,1,2026-05,App features/UX
+27ceeeeb-994b-478b-b9fe-334fb8fcf0aa,1,2026-06,Price/billing
+b9474a8f-df7a-49b5-addf-5ae9a10de891,2,2025-01,Playback/bugs
+c9f259fd-3efa-40ca-838a-1bb214091485,1,2025-04,Household/sharing
+b4e14afa-d108-4f49-8994-0b2d1dedc06a,1,2025-05,Playback/bugs
+2582a5ca-a182-41c3-b24c-b765d844706f,1,2026-05,Playback/bugs
+77ad9a94-c5b1-4625-ba6e-7bcd132b94d8,1,2025-05,Playback/bugs
+91fcd480-46c4-4c3e-bdee-23a8778282b0,1,2025-09,Playback/bugs
+0be846ba-8155-4ca3-8c4a-8b21663fa4e8,1,2025-01,Household/sharing
+6c230cc4-6381-4955-80c7-c3d2a13b7e13,1,2026-04,Price/billing
+5a3cc6a1-73a4-420c-ac0d-4f930e1e3822,1,2026-03,Price/billing
+c94860d1-214c-412c-8302-f07ec6ab0f16,1,2025-04,Household/sharing
+67d65956-d901-4198-8cbd-f460ca85d16e,1,2026-04,Household/sharing
+5ae9cb01-8f00-4964-b459-68e38038b26b,1,2026-03,Price/billing
+80b50ef5-45fe-42a2-9646-04e6854922a9,2,2026-03,Catalog/content
+185c4b3d-7c5f-4e85-99c3-4c30d1f6a904,1,2026-05,Login/account
+13a3afdc-ed11-4760-aab8-751d89f11901,1,2026-04,Price/billing
+48fea1e9-1f95-4c8b-bf4f-71c93f0238f7,1,2025-01,Playback/bugs
+c1f37833-46d0-4c18-ba8a-a7e28307b370,1,2025-05,Household/sharing
+1abe8c3e-2155-4f02-90aa-6b06be358ac2,2,2026-04,Household/sharing
+42a04581-9ac2-42df-817e-d4902dec9537,1,2025-06,Price/billing
+030a773d-4d28-4300-a779-ee544d72ec45,1,2025-11,Catalog/content
+74e95b02-9725-4cb0-9301-270c720a467c,1,2025-09,App features/UX
+b18d75e1-0cea-4195-a98d-3e8f74f3e16b,2,2025-11,Playback/bugs
+c8819507-e3a0-4748-886d-648e74179528,1,2025-12,Catalog/content
+fe2631ef-5366-427c-bab3-c2f999d8e61b,1,2025-02,Price/billing
+1ef51cdf-a236-4567-b17b-4e1f33989272,1,2025-06,Price/billing
+dee0111c-5da8-4319-b0b4-dd5d796d0082,2,2025-01,App features/UX
+b962697c-b3db-4246-ada2-09da64f78f48,2,2025-01,Other/vague
+950e1c48-a759-43b3-96ae-9a02466d098b,1,2025-01,Ads
+2a373e50-78c5-424a-bb4e-45435d7d0f6c,2,2025-04,App features/UX
+f9234444-6446-4fe6-9a70-b6d37fe0ac3b,1,2025-02,Price/billing
+db2d5c57-fffb-46d8-a83b-ba27f3dea825,1,2025-02,Price/billing
+8ad30091-199d-46cd-a2af-3d842eeba1c9,1,2025-09,Price/billing
+7a23cf79-6808-4f2b-b34c-ebc33d4e0f76,1,2025-06,Playback/bugs
+b5e83dee-cfe1-4749-b34c-fb9a2f86c992,1,2026-02,Price/billing
+062af23f-203a-43e7-81c2-57aa7977c7db,1,2025-05,Playback/bugs
+58499edf-a0db-468e-a502-c79a57f76ddc,1,2025-02,Price/billing
